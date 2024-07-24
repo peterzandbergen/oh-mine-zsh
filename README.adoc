@@ -1,0 +1,29 @@
+= Oh Mine ZSH
+Peter Zandbergen <peter.zandbergen@myhops.com>
+
+This repo contains my .zshrc file plus references to instructions on how to install zsh and oh my zsh.
+
+== Set up your system
+
+*_zsh_* has a website, https://zsh.org[zsh.org], but you will not find a lot of useful information there.
+A better place to find information on *_zsh_* is the github wiki of https://github.com/ohmyzsh/ohmyzsh/wiki[_oh my zsh_], which contains a load of plugins and themes for *_zsh_*, and directs you to https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH[the installation instructions].
+
+=== Install zsh
+
+On my Ubuntu based distro I used apt to install zsh.
+
+[source,shell]
+sudo apt install zsh
+
+=== Install oh my zsh
+
+You install *_oh my zsh_* with a shell script and curl.
+
+[,shell]
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+Look on 
+https://github.com/ohmyzsh/ohmyzsh/wiki#:~:text=of%20these%20commands%3A-,Method,-Command[*_oh my zsh_*]
+ for installation instructions using `wget` or `fetch`.
+
+
