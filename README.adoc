@@ -19,7 +19,7 @@ sudo apt install zsh
 
 You install *_oh my zsh_* with a shell script and curl.
 
-[,shell]
+[source,shell]
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 Look on 
